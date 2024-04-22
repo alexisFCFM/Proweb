@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="StylesH.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+<nav>
+
+<div class="container nav_conteiner">
+<a href="Home.html" class="nav_logo">You and Me</a>
+<ul class="nav_items">
+<li><a href="Home.html">Inicio</a></li>
+<li><a href="publicaciones.html">Publicaciones</a></li>
+<li><a href="perfil.html">Creación</a></li>
+
+<li class="nav_profile">
+<div class="avatar">
+<img src="./imagenes/avataer.png">
+</div>
+<ul>
+    <li> <a href="AdminCategoria.html">Administrar</a></li>
+<li> <a href="salir.html">Cerrar sesión</a></li>
+
+
+</ul>
+</li>
+
+</ul>
+<button id="open_navbtn"><ion-icon name="menu-outline"></ion-icon></button>
+<button id="close_navbtn"><ion-icon name="close-outline"></ion-icon></button>
+</div>
+
+</nav>
+
+<section class="form_section">
+<div class="container form_section-container">
+<h2>Crear publicación</h2>
+<div class="alert_message success">
+<p>Este es un mensaje de exito</p>
+</div>
+<form action="" enctype="multipart/form-data">
+<input type="text" placeholder="title">
+<select>
+    <option value="1">Maya</option>
+    <option value="1">Azteca</option>
+    <option value="1">Olmeca</option>
+    <option value="1">Mexica</option>
+    <option value="1">Griega</option>
+
+</select>
+<textarea rows="10" placeholder="body"></textarea>
+<div class="form_control">
+<label for="foto">Subir foto</label>
+<input type="file" id="foto">
+</div>
+
+<button type="submit" class="btn">Crear publicación</button>
+
+
+</form>
+</div>
+
+
+</section>
+
+<footer>
+    <div class="footer_socials">
+    <a href="" target="_blank"><ion-icon name="logo-youtube"></ion-icon></a>
+    <a href="" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
+    <a href="" target="_blank"><ion-icon name="logo-twitter"></ion-icon></a>
+    <a href="" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+    </div>
+    <div class="container footer_container">
+    <article>
+    <h4>Categorias</h4>
+    <ul>
+        <li><a href="">Mayas</a></li>
+        <li><a href="">Azteca</a></li>
+        <li><a href="">Mexica</a></li>
+        <li><a href="">Olmeca</a></li>
+        <li><a href="">Griega</a></li>
+    </ul>
+    </article>
+    <article>
+    <h4>Soporte</h4>
+        <ul>
+        <li><a href="">Ayuda en linea</a></li>
+            <li><a href="">Numeros de ayuda</a></li>
+            <li><a href="">Preguntas frecuentes</a></li>
+            <li><a href="">Red social de soporte</a></li>
+        </ul>
+        </article>
+        <article>
+            <h4>Blog</h4>
+            <ul>
+                <li><a href="">Reciente</a></li>
+                <li><a href="">Popular</a></li>
+                <li><a href="">Categorias</a></li>
+                <li><a href="">Seguridad</a></li>
+                
+            </ul>
+            </article>
+    
+    
+    
+    </div>
+    
+    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    
+    </body>
+    </html>
